@@ -1,72 +1,326 @@
+/* ana sayfa css */
+
+* {
+  margin: 0;
+}
+
+
 .enbuyukdiv {
-    background-color: rgba(226, 183, 226, 0.127);
-    width: 100%;
-    min-height: 100vh;
-    height: 100%;
-    position: relative;
-}
-
-.navbarOzellik {
-    color:#fff;
-    background-color: #2b0f5ec1;
-    margin-bottom: 5%;
-    font-family: cursive;
+  background-image: url(/resimler/pexels-ann-poan-5797992\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(226, 183, 226, 0.127);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
 
 }
+
+
+.navbarOzellik1 {
+  color: #fff;
+  background-color: #2b0f5ece;
+  font-family: cursive;
+  margin-bottom: 5%;
+
+}
+
+
 
 .colStyle {
-    width: 100%;
+  width: 100%;
 
 }
 
-a{
-    color: aqua;
-   
+
+
+a:link {
+  color: darkblue;
+  text-decoration: none;
 }
 
-a:hover{
-    text-decoration: none;
-    color: red;
+a:visited {
+  color: rgb(73, 31, 90);
+  text-decoration: none;
 }
+
+
+a:hover {
+  color: rgba(105, 110, 255, 0.727);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgba(105, 223, 255, 0.604);
+
+}
+
 
 .resimOzellik {
-    width: 90%;
-    height: 85%;
-    object-fit: cover;
-    border-radius:15px;
 
-    
-   
+  width: 90%;
+  height: 85%;
+  object-fit: cover;
+  border-radius: 15px;
+
 }
 
 
 
 .yaziOzellik {
-    border-radius:10px;
-    border: 3px inset #2b0f5ec1;
-    padding: 7px;
-    font-family: cursive;
-    text-decoration:double  ;
-    width: 100%;
-    height: 85%;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 40%;
+  background-color: rgba(162, 162, 168, 0.359);
+  color: #574e68;
+  border-radius: 10px;
+
+  padding: 7px;
+  font-family: cursive;
+  text-decoration: double;
+  width: 100%;
+  height: 85%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 40%;
 
 }
 
+.yaziOzellik:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+
+
+
+
+
 .anaSayfaOzellik {
-    margin-bottom: 7px;
-    width: 25px;
-    height: 22px;
-    padding-right: 2px;
+  margin-bottom: 7px;
+  width: 25px;
+  height: 22px;
+  padding-right: 2px;
 
 }
 
 .container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
 
 }
+
+/* ana sayfa css */
+
+/*********************************************************/
+.enbuyukdiv3 {
+  background-image: url(/resimler/pexels-rohan-chaudhary-9730384.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(226, 183, 226, 0.127);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+
+}
+
+.girisDiv {
+
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  background-color: rgba(230, 230, 250, 0.41);
+  font-family: cursive;
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 5%;
+
+}
+
+
+
+
+#yazi1 {
+  padding-top: 10px;
+  text-decoration: none;
+  font-family: cursive;
+  display: inline-block
+}
+
+.navbarOzellik2 {
+  color: #fff;
+  background-color: #2b0f5ec1;
+  font-family: cursive;
+  margin-bottom: 5%;
+
+
+}
+
+#icon1 {
+
+  width: 20px;
+  height: 20px;
+  display: inline-block
+}
+
+/***********/
+
+h4 {
+  margin-top: 1em;
+  color: #2b0f5ec1;
+  font-family: cursive;
+  font-size: 200%;
+  font-weight: 100;
+  text-align: center;
+}
+
+button {
+  display: inline;
+  background: #2b0f5ec1;
+  color: lavender;
+  border: 0;
+  padding: 4px;
+}
+
+input {
+  display: block;
+  width: 98%;
+  height: 30px;
+  margin-top: 1.0em;
+  padding: 4px;
+
+}
+
+
+.login-box {
+  padding: 1em 1em 1em 1em;
+  margin: auto;
+  text-align: center;
+  display: block;
+
+  /*border: 1px dashed white;*/
+  width: 60%;
+  height: auto;
+}
+
+.outer-box {
+  display: block;
+  margin: auto;
+  background: rgba(230, 230, 250, 0.408);
+  border-radius: 10px;
+  width: 50%;
+  height: 20em;
+  height: auto;
+}
+
+.outer-box:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+
+#btn-login {
+  display: block;
+  font-family: cursive;
+  width: 100%;
+  height: 40px;
+  margin-top: 2.0em;
+  border-radius: 4px;
+  background-color: #2b0f5ec1;
+  color: lavender;
+}
+
+#btn-login:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+
+
+nav a:hover {
+
+
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+
+
+}
+
+
+
+/* ********* */
+
+
+.enbuyukdiv2 {
+  background-image: url(/resimler/doğa4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(226, 183, 226, 0.127);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+
+}
+
+.navbarOzellik3 {
+  color: #ffffff;
+  background-color: #42594fb9;
+  font-family: cursive;
+  margin-bottom: 5%;
+
+
+}
+
+.resimOzellik2 {
+
+  
+  width:100%;
+  height:70%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  margin: auto;
+  border-style: outset;
+  
+}
+.resim{
+
+height:100%;
+text-align:center;
+
+}
+
+.yaziOzellik2{
+  align-items: center;
+  height: 90%;
+  border-radius: 20px;
+  border:5px;
+  border-style: outset;
+  margin-bottom:20px;
+  background-color: rgba(240, 255, 255, 0.693);
+  font-family: cursive;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+

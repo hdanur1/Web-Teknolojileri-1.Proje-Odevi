@@ -5,23 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Sayfa</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Giriş Yap</title>
 
 </head>
 
 <body>
+    <div class="enbuyukdiv3">
 
-    <div class="enbuyukdiv" >
-
-        
-        <nav class="navbar navbar-expand-lg navbar-dark navbarOzellik1">
+        <nav class="navbar navbar-expand-lg navbar-dark navbarOzellik2">
 
             <a class="navbar-brand " href="anasayfa.html" target="_blank"><img class=" anaSayfaOzellik"
                     src="/resimler/house.svg" alt="">Ana Sayfa</a>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -71,35 +69,57 @@
         </nav>
 
 
-        <div class="container ">
-            <div class="row">
+        <div class="girisDiv">
 
-                <div class="col-sm-12 col-mg-6 col-lg-6 mb-5" style="border-radius: 50%;">
-                    <img src="/resimler/resim1.jpeg " alt="" class="resimOzellik">
-
-                </div>
-
-
-
-                <div class="col-sm-12 col-mg-6 col-lg-6 yaziOzellik">
-                    <center>
-                        <i>
-                            <h1>Sayfama Hoş geldin!</h1>
-
-                            <h2> Ben Hüdanur!</h2>
-                            <h3>daha fazla bilgi için <a href="girişyap.html" target="_blank">tıklayın</a></h3>
-                        </i>
-                    </center>
-                </div>
-
-
-
-            </div>
-
-
-
+            <img src="/resimler/right-to-bracket-solid.svg" alt="" id="icon1">
+            <p id="yazi1">Devam etmek için lütfen giriş yapınız.</p>
 
         </div>
+
+        <form action="">
+
+            <table>
+
+                <div class="outer-box">
+                    <div class="login-box">
+                        <h4 class="login-text">Giriş</h4>
+
+                        <center>
+                            <input type="email"   placeholder="Kullanıcı Adı" required>
+                            <input type="password" placeholder="Şifre"required>
+
+                            <button id="btn-login">Giriş Yap</button>
+
+                        </center>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </table>
+
+
+
+        </form>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -130,6 +150,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
