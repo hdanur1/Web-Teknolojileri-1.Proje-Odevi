@@ -133,6 +133,7 @@ a:active {
 
 
 #yazi1 {
+  font-weight: bolder;
   padding-top: 10px;
   text-decoration: none;
   font-family: cursive;
@@ -285,18 +286,22 @@ nav a:hover {
 .yaziOzellik2 {
   max-height: 100%;
   height: 100vh;
-  align-items: center;
-  height: 90%;
+  height:95%;
   border-radius: 20px;
   border: 5px;
   border-style: outset;
   margin-bottom: 20px;
   background-color: rgba(240, 255, 255, 0.693);
+  font-size: larger;
   font-family: cursive;
   text-align: center;
   align-items: center;
   margin: auto;
+  padding: 20px;
+  margin: 24px;
 }
+
+
 
 
 
@@ -371,10 +376,34 @@ nav a:hover {
 
 .slidercerc{
   border-style:groove;
-margin:auto;
-width: 40%;
-
+  margin:auto;
+  width: 40%;
 
 }
 
+#nufus {
+  font-family: cursive;
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#nufus td, #nufus th {
+  color: #fff;
+  border: 2px solid #93ada0;
+  padding: 8px;
+}
+
+#nufus tr:nth-child(even){background-color: #8dbaa8b7;}
+
+#nufus tr:hover {background-color: #6c5c5c36;}
+
+#nufus th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #033925;
+  color: white;
+}
 
