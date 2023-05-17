@@ -206,6 +206,10 @@ input {
   transform: scale(1.1);
 }
 
+.input-box{
+  margin-bottom: 8%;
+}
+
 
 #btn-login {
   display: block;
@@ -302,6 +306,7 @@ nav a:hover {
 
 
   /************************şehrim***/
+
   .enbuyukdiv4 {
     background-image: url(/resimler/pexels-betül-kara-15022196.jpg);
     background-size: cover;
@@ -442,3 +447,7 @@ nav a:hover {
   display: inline-block
 
 }
+
+/********************* */
+
+
