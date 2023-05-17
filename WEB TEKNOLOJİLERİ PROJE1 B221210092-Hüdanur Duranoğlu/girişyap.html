@@ -76,7 +76,7 @@
 
         </div>
 
-        <form action="">
+        <form method="post" action="girisyap.php" >
 
             <table>
 
@@ -85,10 +85,12 @@
                         <h4 class="login-text">Giriş</h4>
 
                         <center>
-                            <input type="email"   placeholder="Kullanıcı Adı" required>
-                            <input type="password" placeholder="Şifre"required>
+                            <input type="text" name="kullaniciAdi"   placeholder="Kullanıcı Adı" required>
+                            <input type="password"name="sifre" placeholder="Şifre" required>
 
-                            <button id="btn-login">Giriş Yap</button>
+                            <div class="input-box">
+                                <a href="hakkımda.html"> <input type="submit" value="Giriş Yap"></a>
+                            </div>
 
                         </center>
                     </div>

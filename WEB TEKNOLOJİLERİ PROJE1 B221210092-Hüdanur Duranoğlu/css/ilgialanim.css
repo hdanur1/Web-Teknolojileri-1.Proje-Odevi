@@ -1,0 +1,75 @@
+body {
+background-color: black;
+}
+
+.movies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    background: #20122a;
+
+}
+
+.movies li img {
+
+    max-width: 300px;
+    border-radius: 10px;
+}
+.movies li h2 {
+    color: #fff;
+    font-size: 1.8em;
+    padding: 15px 10px 0;
+    margin-top: auto;
+    font-family: cursive;
+}
+
+#yazi1 {
+    font-weight:bold;
+    padding-top: 10px;
+    text-decoration: none;
+    font-family: cursive;
+    display: inline-block
+  }
+  .bursaDİV {
+
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    color: rgb(233, 242, 240);
+    background-color: #20122a;
+    font-family: cursive;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 3%;
+  
+  }
+
+  .yaziOzellik2 {
+    max-height: 100%;
+    height: 100vh;
+    height:97%;
+    border-radius: 20px;
+    border: 5px;
+    border-style: outset;
+    color: #fff;
+    background-color: #20122a;
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    margin: 20px;
+  }
