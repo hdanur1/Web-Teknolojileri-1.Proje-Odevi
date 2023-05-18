@@ -32,6 +32,6 @@ function validateForm() {
       return;
     }
   
-    // Tüm kontroller başarılı ise sayfaya yönlendir
-     window.location.href = "hakkımda.html";
+    // Tüm kontroller başarılı ise 
+    sonucDiv.innerHTML = "Başarılı bir şekilde Formu doldurdunuz.Gönder butonuna basınız";
   }

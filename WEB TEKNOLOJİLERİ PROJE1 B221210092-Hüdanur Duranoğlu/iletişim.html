@@ -67,7 +67,7 @@
         </div>
 
 
-        <form method="post">
+        <form method="post" action="iletisim.php">
 
             <table>
                 <div class="row" style="margin:auto">
@@ -147,7 +147,10 @@
                             </div>
                             <br>
                             <div class="input-box">
-                                <input style="width: 55%;" type="button" name="denetleKullanici" onclick="validateForm()" value="Gönder">
+                                <input style="width: 55%;" type="button" name="denetleKullanici" onclick="validateForm()" value="Denetle">
+                            </div>
+                            <div class="input-box">
+                                <input style="width: 55%;" type="submit" name="gonder"  value="Gonder">
                             </div>
 
                             <div id="Sonuc"></div>
@@ -156,16 +159,16 @@
                 </div>
 
             </table>
-        </form>
+        </form> 
+
+
+
 
     </div>
-
-
-
-
-
-
-
+    
+    <footer style="height: 35px;" class="py-5 bg-dark text-white text-center">
+		Web-Teknolojileri-Projesi © Hüdanur Duranoğlu
+	</footer>
 
     <script src="iletisim.js"> </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
