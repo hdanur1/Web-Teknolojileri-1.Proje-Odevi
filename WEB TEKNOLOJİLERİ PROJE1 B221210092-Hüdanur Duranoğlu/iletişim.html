@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/iletisim.css">
+    <title>İletişim</title>
+</head>
+
+<body>
+    <div class="enbuyukdiv3">
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbarOzellik1">
+
+            <a class="navbar-brand " href="anasayfa.html" target="_blank"><img class=" anaSayfaOzellik"
+                    src="/resimler/house.svg" alt="">Ana Sayfa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="hakkımda.html" target="_blank">Hakkımda </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="özgeçmiş.html" target="_blank">Özgeçmiş</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="şehrim.html" target="_blank">Şehrim</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="takımımız.html" target="_blank">Takımımız </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ilgialanlarım.html" target="_blank">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletişim.html" target="_blank">İletişim</a>
+                    </li>
+
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+
+
+                    <a href="girişyap.html" target="_blank"><button class="btn btn-sm btn-outline-light mr-2"
+                            type="button"> Giriş Yap </button></a>
+
+                </form>
+
+            </div>
+        </nav>
+
+
+        <div class="girisDiv">
+            <p id="yazi1">Devam etmek için lütfen bilgilerinizi giriniz..</p>
+        </div>
+
+
+        <form method="post">
+
+            <table>
+                <div class="row" style="margin:auto">
+
+                    <div class="col-sm-8 col-md-10 col-lg-10 outer-box my-4 mx-auto">
+                        <div class="login-box" id="bilgiler">
+                            <div class="input-box">
+                                <label for="isimKullanici"></label>
+                                <input style="width: 50%;"  type="text" name="isimKullanici" id="isimKullanici" placeholder="Ad:"
+                                    autocomplete="off">
+                            </div>
+                            <br>
+
+
+                            <div class="input-box">
+                                <label for="soyIsimKullanici"></label>
+                                <input style="width: 50%;" type="text" name="soyIsimKullanici" id="soyIsimKullanici" placeholder="Soyad:"
+                                    autocomplete="off">
+                            </div>
+
+                            <br>
+                            <div class="input-box">
+                                <label for="mailKullanici"></label>
+                                <input style="width: 50%;" type="email" name="mailKullanici" id="mailKullanici"
+                                    placeholder="E-posta Adresi:">
+                            </div>
+
+                            <br>
+                            <div class="input-box">
+                                <label for="sifreKullanici"></label>
+                                <input style="width: 50%;" type="password" name="sifreKullanici" id="sifreKullanici" placeholder="Şifre:">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <br>
+                    <div class="col-sm-8 col-md-10 col-lg-10 outer-box my-4 mx-auto">
+                        <div class="login-box" >
+                            <h3>Cinsiyet:</h3>
+                            <div class="input-box">
+                                <h5 style="display: inline-block;">Erkek</h5> <input type="radio"
+                                    name="cinsiyetKullanici" value="Erkek">
+                            </div>
+                            <div class="input-box">
+                                <h5 style="display: inline-block;">Kadın</h5><input type="radio"
+                                    name="cinsiyetKullanici" value="Kadın">
+                            </div>
+
+                            <h3>Hobileriniz:</h3>
+
+                            <div class="input-box">
+                                <input type="checkbox" name="inputHobiler">
+                                <h5 style="display: inline-block;">Kitap Okumak</h5>
+                            </div>
+                            <div class="input-box">
+                                <input type="checkbox" name="inputHobiler">
+                                <h5 style="display: inline-block;">Film izlemek</h5>
+                            </div>
+                            <div class="input-box">
+                                <input type="checkbox" name="inputHobiler">
+                                <h5 style="display: inline-block;">Bisiklet Sürmek</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-10 col-lg-10 outer-box my-4 mx-auto">
+                        <div class="login-box" id="bilgiler">
+                            <div class="input-box">
+                                <textarea  style="width: 55%;background-color:rgba(247, 242, 247, 0.815) ;" style="margin: auto;" name="mesajInput" id="alanMesaj" cols="45" rows="13"
+                                    placeholder="Mesajınız..."
+                                    style="background-color: rgba(200, 207, 207, 0.09);color:rgb(229, 230, 234) ;"></textarea>
+                            </div>
+                            <br>
+
+                            <div class="input-box">
+                                <input style="width: 55%;" type="reset" name="silKullanici">
+                            </div>
+                            <br>
+                            <div class="input-box">
+                                <input style="width: 55%;" type="button" name="denetleKullanici" onclick="validateForm()" value="Gönder">
+                            </div>
+
+                            <div id="Sonuc"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </table>
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="iletisim.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

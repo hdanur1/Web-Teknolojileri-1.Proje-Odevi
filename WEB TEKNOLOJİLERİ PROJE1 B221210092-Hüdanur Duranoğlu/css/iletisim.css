@@ -1,0 +1,61 @@
+.enbuyukdiv3 {
+    background-image: url(/resimler/pexels-rohan-chaudhary-9730384.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(226, 183, 226, 0.127);
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+  
+  }
+
+  .navbarOzellik1 {
+    color: #fff;
+    background-color: #2b0f5ece;
+    font-family: cursive;
+    margin-bottom:5%;
+  
+  }
+
+  .girisDiv {
+
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(230, 230, 250, 0.336);
+    font-family: cursive;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 5%;
+  
+  }
+  .login-box {
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+    text-align: center;
+    display: block;
+    /*border: 1px dashed white;*/
+    width: 100%;
+    height: auto;
+  }
+  
+  .outer-box {
+    display: block;
+    margin: auto;
+    background: rgba(230, 230, 250, 0.336);
+    border-radius: 6px;
+    width: 100%;
+    height: 20em;
+    height: auto;
+  }
+
+  #bilgiler input{
+
+   background-color: rgba(240, 231, 241, 0.852);
+    
+
+
+  } 
