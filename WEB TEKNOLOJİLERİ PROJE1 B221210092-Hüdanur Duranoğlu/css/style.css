@@ -245,6 +245,11 @@ nav a:hover {
 
 /*hakkımda.css********* */
 
+.merhabalar  iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 
 .enbuyukdiv2 {
   background-image: url(/resimler/doğa4.jpg);
@@ -410,6 +415,10 @@ nav a:hover {
 
 /* ************takımımız*********** */
 
+.videob  iframe {
+  display: block;
+  margin: 0 auto;
+}
 .enbuyukdiv5 {
   background-image: url(/resimler/futbolA.jpg);
   background-size: cover;
